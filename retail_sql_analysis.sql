@@ -1,4 +1,4 @@
---Lab Week 4 Solution
+--Lab Week 4 
 
 --1 List the average employee salary for each employee title. Sequence the output, highest to lowest average
 SELECT AVG(EmpSal) AS "Average Salary", EmpTitle
@@ -81,6 +81,7 @@ WHERE OrderNo = 9992 AND ItemId = 99999;
 -- iii)
 DELETE FROM SaleItem
 WHERE OrderNo = 9992 AND ItemId = 99999;
+
 
 
 
